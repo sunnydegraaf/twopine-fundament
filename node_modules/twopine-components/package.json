@@ -1,0 +1,23 @@
+{
+  "name": "twopine-components",
+  "files": ["dist"],
+  "main": "./dist/twopine-components.umd.js",
+  "module": "./dist/twopine-components.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/twopine-components.es.js",
+      "require": "./dist/twopine-components.umd.js"
+    }
+  },
+  "version": "0.0.2",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "svelte": "^3.44.0",
+    "vite": "^2.9.9"
+  }
+}

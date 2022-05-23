@@ -1,0 +1,22 @@
+{
+  "name": "twopine-fundament",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunnydegraaf/twopine-fundament.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunnydegraaf/twopine-fundament/issues"
+  },
+  "homepage": "https://github.com/sunnydegraaf/twopine-fundament#readme",
+  "dependencies": {
+    "twopine-components": "^0.0.2"
+  }
+}
