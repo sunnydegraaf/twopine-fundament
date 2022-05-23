@@ -1,0 +1,77 @@
+:root {
+    /* --color-neutral-10: #ffffff; */
+    /* --color-neutral-20: #e6e6e6; */
+    /* --color-neutral-30: #cecece; */
+    /* --color-neutral-40: #b5b5b5; */
+    /* --color-neutral-50: #9c9c9c; */
+    /* --color-neutral-60: #848484; */
+    /* --color-neutral-70: #6b6b6b; */
+    /* --color-neutral-80: #525252; */
+    /* --color-neutral-90: #3a3a3a; */
+    /* --color-neutral-100: #212121; */
+
+    /* --color-primary: #123A29; */
+    /* --color-primary-pressed: #0a2017; */
+    /* --color-primary-hover: #0e2d20; */
+    /* --color-primary-border: #29845d; */
+    /* --color-primary-focus: #47c690; */
+    /* --color-primary-bg: #daf4e9; */
+
+    /* --color-secondary: #EFCF9C; */
+    /* --color-secondary-pressed: #BD801F; */
+    /* --color-secondary-hover: #E3AA50; */
+    /* --color-secondary-border: #F6E4C8; */
+    /* --color-secondary-focus: #F3DAB2; */
+    /* --color-secondary-bg: #FDFAF4; */
+
+    /* --succes: #007505; */
+    /* --warning: #E5C100; */
+    /* --error: #B20000; */
+    /* --info: #0065C1; */
+
+    /* --border-radius: 10px; */
+    /* --border-color: var(--color-primary); */
+    /* --border-width: 1px; */
+    /* --border-style: solid; */
+    /* --border: var(--border-width) var(--color-primary) var(--border-style); */
+
+    /* --font-size: 1rem; */
+    /* --line-height: 1.6; */
+    /* --font-size-helper: calc(var(--font-size) * 0.75); */
+
+    /* --opacity-2: 0.2; */
+    /* --opacity-4: 0.4; */
+    /* --opacity-6: 0.6; */
+    /* --opacity-8: 0.8; */
+
+    /* --cols: 1; */
+    /* --gutter: 16px; */
+    /* --grid-cols: 12; */
+    /* --grid-gutter: 20px; */
+
+    /* --padding: 0.5rem; */
+    /* --padding-x-small: calc(var(--padding) * 0.5); */
+    /* --padding-small: calc(var(--padding) * 2); */
+    /* --padding-medium: calc(var(--padding) * 4); */
+    /* --padding-large: calc(var(--padding) * 8); */
+    /* --padding-x-large: calc(var(--padding) * 16); */
+    /* --padding-xx-large: calc(var(--padding) * 32); */
+
+    /* --medium-radius: calc(var(--border-radius) * 2); */
+    /* --large-radius: calc(var(--border-radius) * 3); */
+
+    /* --size-xxx-small: 3rem; */
+    /* --size-xx-small: 6rem; */
+    /* --size-small: 15rem; */
+    /* --size-medium: 20rem; */
+    /* --size-large: 25rem; */
+    /* --size-x-large: 40rem; */
+    /* --size-xx-large: 60rem; */
+
+    /* --box-shadow: 2px 2px 20px 5px #DBDBDB; */
+    /* --box-shadow-light: 2px 2px 2px 5px #DBDBDB; */
+
+    /* --small: 767px; */
+    /* --medium: 992px; */
+    /* --large: 1200px; */
+}
