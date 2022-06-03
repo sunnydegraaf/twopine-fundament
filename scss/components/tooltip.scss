@@ -1,0 +1,40 @@
+.cancel {
+    display: none;
+}
+
+.open .cancel {
+    display: block;
+}
+
+.open .alert {
+    display: none;
+}
+
+svg {
+    width: 1em;
+    cursor: pointer;
+    /* fill: var(--color-primary); */
+}
+
+.tooltip-container {
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+}
+
+.notify-container {
+    position: absolute;
+    bottom: 125%;
+    z-index: 9;
+    width: var(--size-medium);
+    background: var(--color-primary);
+    color: var(--color-neutral-10);
+    padding: var(--padding);
+    transform: scale(0);
+    transform-origin: bottom left;
+    transition: transform .5s cubic-bezier(0.860, 0.000, 0.070, 1.000);
+} 
+
+.open .notify-container {
+    transform: scale(1);
+} 

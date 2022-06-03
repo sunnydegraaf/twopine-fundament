@@ -1,0 +1,134 @@
+.flex {
+    display: flex;
+    width: 100%;
+    gap: var(--gutter);
+}
+
+.full-height {
+    height: 100%;
+}
+
+/* x axis only */
+[align*="center"] {
+    display: flex;
+    justify-content: center;
+}
+
+[align*="end"] {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+[align*="start"] {
+    display: flex;
+    justify-content: start;
+}
+
+[direction*="reverse"] {
+    flex-direction: row-reverse;
+}
+
+[direction*="column"] {
+    flex-direction: column;
+}
+
+[direction*="row"] {
+    flex-direction: row;
+}
+
+[align*="bottom"] {
+    align-content: flex-end;
+    align-items: flex-end;
+}
+
+[align*="top"] {
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+[justify="evenly"] {
+    justify-content: space-evenly;
+}
+
+[justify="flex-start"] {
+    justify-content: flex-start;
+}
+
+[justify="between"] {
+    justify-content: space-between;
+}
+
+[justify="flex-start"] {
+    justify-content: flex-end;
+}
+
+[align="center center"] {
+    align-content: center;
+    align-items: center;
+}
+
+[gutter="0"] {
+    gap: 0;
+}
+
+[gutter="1"] {
+    gap: calc(var(--gutter) * 1);
+}
+
+[gutter="2"] {
+    gap: calc(var(--gutter) * 2);
+}
+
+[gutter="3"] {
+    gap: calc(var(--gutter) * 3);
+}
+
+[gutter="4"] {
+    gap: calc(var(--gutter) * 4);
+}
+
+[cols="1"] {
+    max-width: 8.333%;
+}
+
+[cols="2"] {
+    max-width: 16.667%;
+}
+
+[cols="3"] {
+    max-width: 25%;
+}
+
+[cols="4"] {
+    max-width: 33.333%;
+}
+
+[cols="5"] {
+    max-width: 41.667%;
+}
+
+[cols="6"] {
+    max-width: 50%;
+}
+
+[cols="7"] {
+    max-width: 58.333%;
+}
+
+[cols="8"] {
+    max-width: 66.667%
+}
+
+[cols="9"] {
+    max-width: 75%
+}
+
+[cols="10"] {
+    max-width: 83.333%
+}
+
+[cols="11"] {
+    max-width: 91.667%;
+}

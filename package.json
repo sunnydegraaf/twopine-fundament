@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/sunnydegraaf/twopine-fundament/issues"
   },
-  "homepage": "https://github.com/sunnydegraaf/twopine-fundament#readme",
-  "dependencies": {
-    "twopine-components": "^0.0.2"
-  }
+  "homepage": "https://github.com/sunnydegraaf/twopine-fundament#readme"
 }
