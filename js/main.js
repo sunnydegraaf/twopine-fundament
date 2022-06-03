@@ -1,2 +1,2 @@
-import './components/modal.js';
-import './components/tooltip.js';
+import '../components/modal/modal.js';
+import '../components/tooltip/tooltip.js';
