@@ -16,6 +16,8 @@
 
 .modal-content {
     background: var(--color-neutral-10);
+    border: 1px solid var(--color-neutral-10);
+    border-radius: var(--border-radius);
     display: flex;
     flex-direction: column;
     padding: var(--padding-medium);
@@ -30,13 +32,40 @@
     top: 50%;
 }
 
+.modal.warning {
+    .modal-content {
+        border: 2px solid var(--warning);
+        background: hsl(51deg 100% 90%);
+        border-radius: var(--border-radius);
+    }
+}
+
+.modal.succes {
+    .modal-content {
+        border: 2px solid var(--succes);
+        background: hsl(123deg 100% 90%);
+        border-radius: var(--border-radius);
+    }
+}
+
 .modal.error {
-    
+    .modal-content {
+        border: 2px solid var(--error);
+        background: hsl(0deg 100% 90%);
+        border-radius: var(--border-radius);
+    }
+}
+
+.modal.info {
+    .modal-content {
+        border: 2px solid var(--info);
+        background: hsl(209deg 100% 90%);
+        border-radius: var(--border-radius);
+    }
 }
 
 .modal-overlay {
-
-}
+} 
 
 .modal .close-button {
     position: absolute;
