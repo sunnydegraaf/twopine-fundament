@@ -27,23 +27,22 @@ html {
   letter-spacing: -0.01rem;
 
   @include sm {
-    letter-spacing: 0;
+    font-size: 1.375rem;
+    letter-spacing: 0.02em;
   }
 
   @include md {
-    font-size: 1.125rem;
-    letter-spacing: 0.005em;
-  }
-
-  @include lg {
     font-size: 1.25rem;
     letter-spacing: 0.01em;
   }
 
+  @include lg {
+    font-size: 1.125rem;
+    letter-spacing: 0.005em;
+  }
+
   @include xl {
-    font-size: 1.375rem;
-    font-size: 1.03vw;
-    letter-spacing: 0.02em;
+    letter-spacing: 0;
   }
 }
 
@@ -52,7 +51,7 @@ body {
 }
 
 h1 {
-  font-size: $font-size-h1/1.25;
+  font-size: calc($font-size-h1 / 1.25);
   font-weight: 700;
   line-height: 1;
   letter-spacing: -0.025em;
@@ -64,21 +63,22 @@ h1 {
   }
 
   @include md {
-    font-size: $font-size-h1 * 1.25;
+    font-size: calc($font-size-h1 * 1.25);
   }
 
   @include lg {
-    font-size: $font-size-h1 * 1.75;
+    font-size: calc($font-size-h1 * 1.5);
     line-height: 1.2;
   }
 }
 
 h2 {
-  font-size: $font-size-h2;
+  font-size: $font-size-h3;
   line-height: 1.375;
   margin: $baseline 0 0.65rem 0;
+
   @include sm {
-    font-size: $font-size-h3;
+    font-size: $font-size-h2;
   }
 }
 
@@ -96,12 +96,6 @@ h4 {
 
 p {
   margin: 0 0 $baseline;
-  max-width: 30em;
-  word-wrap: break-word; //legacy
-
-  /* Non standard for webkit */
-  word-break: break-word;
-  overflow-wrap: break-word;
   -ms-hyphenate-limit-lines: 1;
   -webkit-hyphenate-limit-lines: 1;
   hyphenate-limit-lines: 1;
@@ -146,16 +140,3 @@ h2 {
 .u-emphasis {
   font-weight: bold;
 }
-
-@include sm {
-    p, label, input {
-        font-size: 1;
-    }
-}
-
-@include md {
-    p, label, input {
-        font-size: .85em;
-    }
-}
-

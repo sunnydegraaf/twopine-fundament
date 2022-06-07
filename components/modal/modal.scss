@@ -1,3 +1,5 @@
+@import '../../scss/globals/mixins.scss';
+
 .modal {
     display: none;
     position: fixed;
@@ -22,7 +24,7 @@
     flex-direction: column;
     padding: var(--padding-medium);
     transform: translate(-50%, -50%);
-    width: var(--size-x-large);
+    width: var(--size-small);
     height: var(--size-large);
     max-width: 100%;
     max-height: 100%;
@@ -30,6 +32,10 @@
     z-index: 100;
     left: 50%;
     top: 50%;
+
+    @include md {
+        width: var(--size-x-large);
+    }
 }
 
 .modal.warning {

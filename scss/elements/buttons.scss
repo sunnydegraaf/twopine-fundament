@@ -1,9 +1,10 @@
 button {
+    font-size: inherit;
+    font-family: inherit;
     transition: ease-in-out 0.2s all;
     box-sizing: content-box;
     padding: var(--padding);
     color: var(--color-neutral-10);
-    font-size: var(--font-size);
     border-radius: var(--border-radius);
     border-width: var(--border-width);
     border-style: var(--border-style);
